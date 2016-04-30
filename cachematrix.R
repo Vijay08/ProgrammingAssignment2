@@ -1,7 +1,7 @@
 #The assignment is about cache the inverse of matix
 #Rather than computing the inverse of the matrix its better to cache it avoid repeated computation
 
-#The below function creates a special object matrix to cache the inverse. 
+#The below function creates a special object matrix to cache the inverse. ]
 
 makeCacheMatrix <- function(x = matrix()) {
   inv_mat <- NULL
