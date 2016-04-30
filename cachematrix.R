@@ -17,8 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
        setInverse = setInverse,
        getInverse = getInverse)
 }
-#The below function computes the matrix inverse of the special  matrix from the above 
-#function. The inverse of the matrix is cached if its not the same matrix.
+#The below function computes the matrix inverse of the special  matrix from the above function. 
+#The inverse of the matrix is cached if its not the same matrix
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
